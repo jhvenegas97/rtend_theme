@@ -54,6 +54,11 @@
             .nav-links {
                 margin-top: 10px;
             }
+
+            #navigationUser{
+                text-align: center;
+            }
+
         }
 
 		.navbar {
@@ -100,10 +105,10 @@
                 <!-- Social Icons -->
                 <div class="col-md-6 social-icons">
                     <ul>
-                        <li><a href="#"><i class="fas fa-envelope"></i></a></li>
-                        <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
-                        <li><a href="#"><i class="fa-brands fa-x-twitter"></i></a></li>
-                        <li><a href="#"><i class="fab fa-linkedin-in"></i></a></li>
+                        <li><a href="mailTo:revistatendencias@udenar.edu.co"><i class="fas fa-envelope"></i></a></li>
+                        <li><a href="https://www.facebook.com/RevistaTendenciasUdenar" target="_blank"><i class="fab fa-facebook-f"></i></a></li>
+                        <li><a href="#"><i class="fa-brands fa-x-twitter" target="_blank"></i></a></li>
+                        <li><a href="#"><i class="fab fa-linkedin-in" target="_blank"></i></a></li>
                     </ul>
                 </div>
 

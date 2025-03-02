@@ -187,7 +187,7 @@ class RTendThemePlugin extends ThemePlugin {
 		$this->addScript('default', 'js/main.js');
 
 		// Add navigation menu areas for this theme
-		$this->addMenuArea(array('primary', 'user'));
+		$this->addMenuArea(array('primary', 'user', 'social'));
 	}
 
 	/**
@@ -213,7 +213,7 @@ class RTendThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDisplayName() {
-		return __('plugins.themes.rtend.name');
+		return __('plugins.themes.rtend_theme.name');
 	}
 
 	/**
@@ -221,6 +221,6 @@ class RTendThemePlugin extends ThemePlugin {
 	 * @return string
 	 */
 	function getDescription() {
-		return __('plugins.themes.default.description');
+		return __('plugins.themes.rtend_theme.description');
 	}
 }
